@@ -68,6 +68,6 @@ frontend/node_modules/
 
 # Old backend files (now in backend/)
 server.py
-src/
+
 app.py
 main.py
