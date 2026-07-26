@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+rag_chat.db
+
+# FAISS Index (rebuild on server)
+backend/faiss_store/
+backend/faiss_store_backup/
+faiss_store/
+faiss_store_backup/
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+app_output.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Temporary files
+tmp_*.py
+
+# Node modules (frontend)
+frontend/node_modules/
+
+# Old backend files (now in backend/)
+server.py
+src/
+app.py
+main.py

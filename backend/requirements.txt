@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-community
+pypdf
+pymupdf
+sentence-transformers
+chromadb
+scikit-learn
+faiss-cpu
+langchain-groq
+python-dotenv
+rank-bm25
+fastapi
+uvicorn
+pydantic
+huggingface_hub==0.17.3
+pymongo
